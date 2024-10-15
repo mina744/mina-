@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.body {
+    font-family: monospace;
+
+}
+
+         /* home */
+
+.home {
+    background-image: url(./drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+.content {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+
+}
+.nav{
+    
+
+}
+.navlogo{
+   
+    width: 15%;
+    float: left;
+    margin-top: 10px;
+}
+.navlogo img{
+    width: 100%;
+}
+.navlink{
+    
+
+    
+ 
+}
+.navlink ul{
+    float: right;
+    padding: 15px;
+    margin-top: 10px;
+
+}
+
+.navlink ul li{
+    list-style: none;
+    float: left;
+}
+.navlink ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+.content p{
+    font-size: 23px;
+    margin: 30px 300px;
+}
+.content h1{
+    font-size: 55px;
+    font-weight: bold;
+    margin: 20px 0;
+    margin-left: 10px;
+}
+.content .btn{
+    padding: 17px;
+    font-size: 17px;
+    color: white;
+}
+.content .btn1{
+    background-color: #8e7754;
+    border-radius: 15px;
+    border-width: 0;
+}
+.content .btn2{
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+
+
+
+          /* about */
+
+
+
+
+.about{
+
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.about-photo {
+
+    width: 40%;
+    float: left;
+}
+.about-photo img{
+    width: 100%;
+}
+.about-write{
+
+    width: 50%;
+    float: right;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: #686868;
+    margin-right: 20px;
+    
+}
+.about-write h2{
+    color: black;
+    font-weight: bold;
+}
+.about-list {
+    text-align: left;
+}
+.about-write p {
+    margin: 20px 0 ;
+}
+
+.about-list ul li{
+    padding: 10px;
+}
+
+
+         /* location */
+
+
+
+
+
+.location {
+
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+   background-color: #f8f8f8;
+   background-size: cover;
+}
+.loc-photo{
+
+    width: 40% ;
+    float: right;
+    margin-top: 70px;
+}
+.loc-photo img{
+    width: 100%;
+}
+.loc-cap{
+
+    float: left;
+    width: 40%;
+    text-align: left;
+    color: #686868;
+    margin-top: 80px;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.loc-cap h2{
+    color: black;
+    margin: 20px 0;
+    font-weight: bold;
+}
+.loc-cap p{
+    padding: 10px;
+    margin: 0px 0;
+    line-height: 1.86;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+         /* gallery */
+
+
+
+
+
+.meals{
+    width: 90%;
+    margin: auto;
+}
+
+.meal{
+    width: 100%;
+    text-align: center;
+    display: flex;
+}
+.inner{
+    width: 33.33%;
+    padding: 20px;
+
+}
+.inner img{
+    width: 100%;
+}
+
+.gallery p{
+    text-align: center;
+    font-size: 17px;
+    color: #686868;
+    margin-top: 30px;
+ 
+}
+.gallery h3{
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.inner h4{
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.inner p{
+    font-size: 17px;
+    font-weight: 400;
+
+    line-height: 1.86;
+}
+
+
+
+
+
+
+      /* contact */
+.contact{
+    background-color: #403d38;
+    margin-top: 35px;
+}
+.contact-row{
+    width: 25%;
+    float: left;
+}
+.contact-row p{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.86;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #686868;
+}
+.contact-row h4
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 29px;
+text-align: center;
+    color: white;
+    
+}
+.contact-row ul li{
+   list-style: none; 
+   text-align: center;
+   line-height: 1.86;
+   margin-top: 15px;
+   color: #686868;
+}
+
+
+
+
+
+
+
+         /* last  */
+ 
+
+
+
+.info{
+    background-color: #151515;
+    
+}
+   
+.info-cap{
+
+    margin: auto;
+    text-align: center;
+
+    width: 40%;
+}      
+.info-cap img{ 
+    width: 40%;
+    margin-top: 30px;
+
+
+}
+
